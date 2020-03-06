@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D313D622409CD2500324BED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D313D612409CD2500324BED /* AppDelegate.swift */; };
+		9D313D642409CD2500324BED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D313D632409CD2500324BED /* SceneDelegate.swift */; };
+		9D313D692409CD2500324BED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D313D672409CD2500324BED /* Main.storyboard */; };
+		9D313D6B2409CD2700324BED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D313D6A2409CD2700324BED /* Assets.xcassets */; };
+		9D313D6E2409CD2700324BED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D313D6C2409CD2700324BED /* LaunchScreen.storyboard */; };
+		9D313D792409CD2700324BED /* SliverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D313D782409CD2700324BED /* SliverTests.swift */; };
+		9D313D852409CD6700324BED /* SliverList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D313D842409CD6700324BED /* SliverList.swift */; };
+		9D313D8B240C0AF900324BED /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D313D8A240C0AF900324BED /* CustomScrollView.swift */; };
+		9D313D8E240C0B3B00324BED /* Sliver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D313D8D240C0B3B00324BED /* Sliver.swift */; };
+		9D313D91240C0C0000324BED /* UIView+Autolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D313D90240C0C0000324BED /* UIView+Autolayout.swift */; };
+		9D313D94240C14E300324BED /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D313D93240C14E300324BED /* TestViewController.swift */; };
+		9D313D96240C194200324BED /* SliverPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D313D95240C194200324BED /* SliverPadding.swift */; };
+		9D313D98240C1C2200324BED /* SliverSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D313D97240C1C2200324BED /* SliverSafeArea.swift */; };
+		9DCCFB97240C22E6004FC05F /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCCFB95240C22E6004FC05F /* UserTableViewCell.swift */; };
+		9DCCFB98240C22E6004FC05F /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DCCFB96240C22E6004FC05F /* UserTableViewCell.xib */; };
+		9DCCFB9E240C24C2004FC05F /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCCFB9D240C24C2004FC05F /* UIView+Nib.swift */; };
+		9DCCFBA1240C2F1D004FC05F /* ComplexTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCCFB9F240C2F1D004FC05F /* ComplexTableViewCell.swift */; };
+		9DCCFBA2240C2F1D004FC05F /* ComplexTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DCCFBA0240C2F1D004FC05F /* ComplexTableViewCell.xib */; };
+		9DCCFBA4240C43E4004FC05F /* CustomScrollViewPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCCFBA3240C43E4004FC05F /* CustomScrollViewPadding.swift */; };
+		9DCCFBA6240C4452004FC05F /* SliverHeaderFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCCFBA5240C4452004FC05F /* SliverHeaderFooter.swift */; };
+		9DCCFBA8240C44D3004FC05F /* SliverBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCCFBA7240C44D3004FC05F /* SliverBox.swift */; };
+		9DCCFBAC240C4ACE004FC05F /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCCFBAA240C4ACE004FC05F /* ButtonViewController.swift */; };
+		9DCCFBAD240C4ACE004FC05F /* ButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DCCFBAB240C4ACE004FC05F /* ButtonViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D313D752409CD2700324BED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D313D562409CD2500324BED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D313D5D2409CD2500324BED;
+			remoteInfo = Sliver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D313D5E2409CD2500324BED /* Sliver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sliver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D313D612409CD2500324BED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D313D632409CD2500324BED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9D313D682409CD2500324BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D313D6A2409CD2700324BED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D313D6D2409CD2700324BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D313D6F2409CD2700324BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D313D742409CD2700324BED /* SliverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SliverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D313D782409CD2700324BED /* SliverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliverTests.swift; sourceTree = "<group>"; };
+		9D313D7A2409CD2700324BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D313D842409CD6700324BED /* SliverList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliverList.swift; sourceTree = "<group>"; };
+		9D313D8A240C0AF900324BED /* CustomScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollView.swift; sourceTree = "<group>"; };
+		9D313D8D240C0B3B00324BED /* Sliver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sliver.swift; sourceTree = "<group>"; };
+		9D313D90240C0C0000324BED /* UIView+Autolayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Autolayout.swift"; sourceTree = "<group>"; };
+		9D313D93240C14E300324BED /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		9D313D95240C194200324BED /* SliverPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliverPadding.swift; sourceTree = "<group>"; };
+		9D313D97240C1C2200324BED /* SliverSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliverSafeArea.swift; sourceTree = "<group>"; };
+		9DCCFB95240C22E6004FC05F /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		9DCCFB96240C22E6004FC05F /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		9DCCFB9D240C24C2004FC05F /* UIView+Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
+		9DCCFB9F240C2F1D004FC05F /* ComplexTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexTableViewCell.swift; sourceTree = "<group>"; };
+		9DCCFBA0240C2F1D004FC05F /* ComplexTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComplexTableViewCell.xib; sourceTree = "<group>"; };
+		9DCCFBA3240C43E4004FC05F /* CustomScrollViewPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollViewPadding.swift; sourceTree = "<group>"; };
+		9DCCFBA5240C4452004FC05F /* SliverHeaderFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliverHeaderFooter.swift; sourceTree = "<group>"; };
+		9DCCFBA7240C44D3004FC05F /* SliverBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliverBox.swift; sourceTree = "<group>"; };
+		9DCCFBAA240C4ACE004FC05F /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		9DCCFBAB240C4ACE004FC05F /* ButtonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D313D5B2409CD2500324BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D313D712409CD2700324BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D313D552409CD2500324BED = {
+			isa = PBXGroup;
+			children = (
+				9D313D602409CD2500324BED /* Sliver */,
+				9D313D772409CD2700324BED /* SliverTests */,
+				9D313D5F2409CD2500324BED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D313D5F2409CD2500324BED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D313D5E2409CD2500324BED /* Sliver.app */,
+				9D313D742409CD2700324BED /* SliverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D313D602409CD2500324BED /* Sliver */ = {
+			isa = PBXGroup;
+			children = (
+				9D313D92240C14CF00324BED /* Example */,
+				9D313D832409CD3000324BED /* Source */,
+				9D313D612409CD2500324BED /* AppDelegate.swift */,
+				9D313D632409CD2500324BED /* SceneDelegate.swift */,
+				9D313D672409CD2500324BED /* Main.storyboard */,
+				9D313D6A2409CD2700324BED /* Assets.xcassets */,
+				9D313D6C2409CD2700324BED /* LaunchScreen.storyboard */,
+				9D313D6F2409CD2700324BED /* Info.plist */,
+			);
+			path = Sliver;
+			sourceTree = "<group>";
+		};
+		9D313D772409CD2700324BED /* SliverTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D313D782409CD2700324BED /* SliverTests.swift */,
+				9D313D7A2409CD2700324BED /* Info.plist */,
+			);
+			path = SliverTests;
+			sourceTree = "<group>";
+		};
+		9D313D832409CD3000324BED /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9D313D8F240C0BF300324BED /* Extensions */,
+				9D313D8C240C0B2D00324BED /* Protocol */,
+				9D313D8A240C0AF900324BED /* CustomScrollView.swift */,
+				9DCCFBA3240C43E4004FC05F /* CustomScrollViewPadding.swift */,
+				9D313D842409CD6700324BED /* SliverList.swift */,
+				9D313D95240C194200324BED /* SliverPadding.swift */,
+				9D313D97240C1C2200324BED /* SliverSafeArea.swift */,
+				9DCCFBA5240C4452004FC05F /* SliverHeaderFooter.swift */,
+				9DCCFBA7240C44D3004FC05F /* SliverBox.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		9D313D8C240C0B2D00324BED /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				9D313D8D240C0B3B00324BED /* Sliver.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		9D313D8F240C0BF300324BED /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9D313D90240C0C0000324BED /* UIView+Autolayout.swift */,
+				9DCCFB9D240C24C2004FC05F /* UIView+Nib.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9D313D92240C14CF00324BED /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				9DCCFBA9240C4ABD004FC05F /* Controller */,
+				9DCCFB94240C22D5004FC05F /* View */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		9DCCFB94240C22D5004FC05F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9DCCFB95240C22E6004FC05F /* UserTableViewCell.swift */,
+				9DCCFB96240C22E6004FC05F /* UserTableViewCell.xib */,
+				9DCCFB9F240C2F1D004FC05F /* ComplexTableViewCell.swift */,
+				9DCCFBA0240C2F1D004FC05F /* ComplexTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9DCCFBA9240C4ABD004FC05F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9D313D93240C14E300324BED /* TestViewController.swift */,
+				9DCCFBAA240C4ACE004FC05F /* ButtonViewController.swift */,
+				9DCCFBAB240C4ACE004FC05F /* ButtonViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D313D5D2409CD2500324BED /* Sliver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D313D7D2409CD2700324BED /* Build configuration list for PBXNativeTarget "Sliver" */;
+			buildPhases = (
+				9D313D5A2409CD2500324BED /* Sources */,
+				9D313D5B2409CD2500324BED /* Frameworks */,
+				9D313D5C2409CD2500324BED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sliver;
+			productName = Sliver;
+			productReference = 9D313D5E2409CD2500324BED /* Sliver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D313D732409CD2700324BED /* SliverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D313D802409CD2700324BED /* Build configuration list for PBXNativeTarget "SliverTests" */;
+			buildPhases = (
+				9D313D702409CD2700324BED /* Sources */,
+				9D313D712409CD2700324BED /* Frameworks */,
+				9D313D722409CD2700324BED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D313D762409CD2700324BED /* PBXTargetDependency */,
+			);
+			name = SliverTests;
+			productName = SliverTests;
+			productReference = 9D313D742409CD2700324BED /* SliverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D313D562409CD2500324BED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Jonathan Benavides Vallejo";
+				TargetAttributes = {
+					9D313D5D2409CD2500324BED = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					9D313D732409CD2700324BED = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 9D313D5D2409CD2500324BED;
+					};
+				};
+			};
+			buildConfigurationList = 9D313D592409CD2500324BED /* Build configuration list for PBXProject "Sliver" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D313D552409CD2500324BED;
+			productRefGroup = 9D313D5F2409CD2500324BED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D313D5D2409CD2500324BED /* Sliver */,
+				9D313D732409CD2700324BED /* SliverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D313D5C2409CD2500324BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DCCFBAD240C4ACE004FC05F /* ButtonViewController.xib in Resources */,
+				9DCCFB98240C22E6004FC05F /* UserTableViewCell.xib in Resources */,
+				9D313D6E2409CD2700324BED /* LaunchScreen.storyboard in Resources */,
+				9D313D6B2409CD2700324BED /* Assets.xcassets in Resources */,
+				9DCCFBA2240C2F1D004FC05F /* ComplexTableViewCell.xib in Resources */,
+				9D313D692409CD2500324BED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D313D722409CD2700324BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D313D5A2409CD2500324BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DCCFBAC240C4ACE004FC05F /* ButtonViewController.swift in Sources */,
+				9D313D852409CD6700324BED /* SliverList.swift in Sources */,
+				9D313D91240C0C0000324BED /* UIView+Autolayout.swift in Sources */,
+				9D313D96240C194200324BED /* SliverPadding.swift in Sources */,
+				9D313D94240C14E300324BED /* TestViewController.swift in Sources */,
+				9DCCFBA1240C2F1D004FC05F /* ComplexTableViewCell.swift in Sources */,
+				9DCCFB97240C22E6004FC05F /* UserTableViewCell.swift in Sources */,
+				9D313D622409CD2500324BED /* AppDelegate.swift in Sources */,
+				9D313D642409CD2500324BED /* SceneDelegate.swift in Sources */,
+				9DCCFB9E240C24C2004FC05F /* UIView+Nib.swift in Sources */,
+				9DCCFBA4240C43E4004FC05F /* CustomScrollViewPadding.swift in Sources */,
+				9DCCFBA8240C44D3004FC05F /* SliverBox.swift in Sources */,
+				9DCCFBA6240C4452004FC05F /* SliverHeaderFooter.swift in Sources */,
+				9D313D8E240C0B3B00324BED /* Sliver.swift in Sources */,
+				9D313D98240C1C2200324BED /* SliverSafeArea.swift in Sources */,
+				9D313D8B240C0AF900324BED /* CustomScrollView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D313D702409CD2700324BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D313D792409CD2700324BED /* SliverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D313D762409CD2700324BED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D313D5D2409CD2500324BED /* Sliver */;
+			targetProxy = 9D313D752409CD2700324BED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D313D672409CD2500324BED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D313D682409CD2500324BED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D313D6C2409CD2700324BED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D313D6D2409CD2700324BED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D313D7B2409CD2700324BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D313D7C2409CD2700324BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D313D7E2409CD2700324BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NBKK2WLC3C;
+				INFOPLIST_FILE = Sliver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jbapps.Sliver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D313D7F2409CD2700324BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NBKK2WLC3C;
+				INFOPLIST_FILE = Sliver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jbapps.Sliver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9D313D812409CD2700324BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SliverTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jbapps.SliverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sliver.app/Sliver";
+			};
+			name = Debug;
+		};
+		9D313D822409CD2700324BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SliverTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jbapps.SliverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sliver.app/Sliver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D313D592409CD2500324BED /* Build configuration list for PBXProject "Sliver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D313D7B2409CD2700324BED /* Debug */,
+				9D313D7C2409CD2700324BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D313D7D2409CD2700324BED /* Build configuration list for PBXNativeTarget "Sliver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D313D7E2409CD2700324BED /* Debug */,
+				9D313D7F2409CD2700324BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D313D802409CD2700324BED /* Build configuration list for PBXNativeTarget "SliverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D313D812409CD2700324BED /* Debug */,
+				9D313D822409CD2700324BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D313D562409CD2500324BED /* Project object */;
+}
